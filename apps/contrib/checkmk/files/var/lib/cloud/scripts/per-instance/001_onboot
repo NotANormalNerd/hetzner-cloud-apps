@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Generate passwords
+gitlab_initial_pass=$(openssl rand -hex 24)
+
+# Don't enable Gitlab until first login
+cat >> /root/.bashrc <<EOM
+chmod +x /opt/hcloud/checkmk_setup.sh
+/opt/hcloud/checkmk_setup.sh
+EOM
