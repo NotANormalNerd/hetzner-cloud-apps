@@ -1,0 +1,16 @@
+{
+  "description_de": "Checkmk ist eine umfassende IT-Monitoring-Lösung, die eine einfache und schnelle Überwachung von Netzwerken, Servern, Anwendungen und Cloud-Umgebungen ermöglicht.",
+  "description_en": "Checkmk is a comprehensive IT monitoring solution that enables easy and fast monitoring of networks, servers, applications, and cloud environments.",
+  "documentation_url": "https://docs.checkmk.com/latest/en/install_packages_debian.html",
+  "name": "Checkmk",
+  "os_id": 161547269,
+  "packages": [
+    {
+      "license": "GPLv2",
+      "name": "Checkmk"
+    }
+  ],
+  "recommended_server_type": 22,
+  "version": "2.4.0p2",
+  "maintainer": "Dennis Schmalacker <dennis.schmalacker@checkmk.com>"
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Create our first instance on first login
+cat >> /root/.bashrc <<EOM
+chmod +x /opt/hcloud/checkmk_setup.sh
+/opt/hcloud/checkmk_setup.sh
+EOM
